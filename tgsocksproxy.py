@@ -308,16 +308,6 @@ def main():
     loop.run_until_complete(server.wait_closed())
     loop.close()
 
-print "\033[34m:-------------TELEGRAM Proxy -------------:\033[0;0m"
-print "\033[34m:-------------Porta: PORT -------------:\033[0;0m"
-print "\033[34m:-------------Usuario padrao: Telegram -------------:\033[0;0m"
-print "\033[34m:-------------Senha padrao: 1 -------------:\033[0;0m"
-print "\033[34m:-------------Edit By: @LindoFuLL -------------:\033[0;0m"
-print "\033[34m:-------------@PayloadHTTP -------------:\033[0;0m"
-print ":---DEIXE RODANDO EM SEGUNDO PLANO-------\n"
-print "\033[31m :- APERTE  CTRL A D   para deixar em seg plano ------------: \033[0;0m"
-print "\033[31m :---------- Para parar aperte, CTRL Z  ------------: \033[0;0m"
-
 if __name__ == "__main__":
     if PRINT_TG_INFO:
         print_tg_info()
