@@ -8,6 +8,12 @@ import urllib.request
 import collections
 import time
 
+print ('-----------------------------------------')
+print ('SOCKS5   PARA   TELEGRAM')
+print ('USUARIO:   Telegram   SENHA:  1')
+print ('EDIT BY: @LindoFuLL  CANAL:  @PAYLOADHTTP')
+print ('-----------------------------------------')
+
 PORT = input('\033[34mDIGITE A PORTA TELEGRAM SOCKS5: ')
 USERS = {"Telegram": "1"}
 
